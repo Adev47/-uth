@@ -67,7 +67,7 @@ st.markdown(
         margin-top: 0px;
     }
     .spacer {
-        height: 100px;  /* Ajustez cette valeur pour ajouter plus ou moins d'espace */
+        height: 120px;  /* Ajustez cette valeur pour ajouter plus ou moins d'espace */
     }
     .center-image {
         display: flex;
