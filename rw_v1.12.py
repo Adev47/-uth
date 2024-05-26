@@ -48,7 +48,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url("https://cdn.discordapp.com/attachments/1125752520229273630/1242965051930050703/AUTH_BOT_BANNIERE_V2.png?ex=664fc0e9&is=664e6f69&hm=75da60184e4855c550dc52369c58d645a3f01f44a8b072890b97bec91e6f28ed&");
+        background-image: url("https://raw.githubusercontent.com/Adev47/LOADERS/main/uploads/AUTH_BOT_BANNIERE_V2.png");
         background-size: cover;
     }
     .title {
@@ -67,7 +67,7 @@ st.markdown(
         margin-top: 0px;
     }
     .spacer {
-        height: 200px;  /* Ajustez cette valeur pour ajouter plus ou moins d'espace */
+        height: 120px;  /* Ajustez cette valeur pour ajouter plus ou moins d'espace */
     }
     .center-image {
         display: flex;
@@ -97,7 +97,7 @@ st.markdown(
 st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)
 
 # Ajouter une image centrée au-dessus du titre
-st.markdown('<div class="center-image"><img src="https://cdn.discordapp.com/attachments/1125752520229273630/1242965439282417664/Auth_BOT_LOGO_V1.png?ex=664fc145&is=664e6fc5&hm=3532f3508684c34d83a1db3a3585d2e37a1d546d8416ca38171b12022b302fa5&" width="200"></div>', unsafe_allow_html=True)
+st.markdown('<div class="center-image"><img src="https://raw.githubusercontent.com/Adev47/LOADERS/main/uploads/Auth_BOT_LOGO_V1.png" width="200"></div>', unsafe_allow_html=True)
 
 # Centrer les éléments dans une colonne étroite
 col1, col2, col3 = st.columns([1, 2, 1])  # Ajustez les proportions pour centrer
